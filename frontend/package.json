@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@remix-run/dev": "2.17.5",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
@@ -11,7 +12,6 @@
     "react": "^19.2.7",
     "react-dom": "^19.2.7",
     "react-scripts": "^0.0.0",
-    "@remix-run/dev": "2.17.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -37,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@remix-run/node": "^2.17.5"
   }
 }
